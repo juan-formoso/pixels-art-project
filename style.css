@@ -1,0 +1,25 @@
+table {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+  }
+
+#color-palette {
+    border: 1px solid black;
+}
+
+.classicBlue {
+    background-color: #34568B;
+}
+  
+.livingCoral {
+    background-color: #FF6F61;
+}
+  
+.ultraViolet {
+    background-color: #6B5B95;
+}
+  
+.greenery {
+    background-color: #88B04B;
+}
