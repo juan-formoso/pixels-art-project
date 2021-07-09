@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2021-07-09T18:35:52.517Z",
-    "end": "2021-07-09T18:35:56.460Z",
-    "duration": 3943,
+    "start": "2021-07-09T18:45:08.070Z",
+    "end": "2021-07-09T18:45:11.797Z",
+    "duration": 3727,
     "testsRegistered": 41,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d7a52e41-a3d1-40e1-9e6c-3f82cf5f5e59",
+      "uuid": "fc556bc7-7588-490d-89d8-1ea6b1ae3ec5",
       "title": "",
       "fullFile": "cypress/integration/project.spec.js",
       "file": "cypress/integration/project.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "82255ba7-0a6f-4e0d-a398-7a46a4432993",
+          "uuid": "5f724703-3d11-403a-b2b8-4636b1bbeae2",
           "title": "1 - Adicione à página o título \"Paleta de Cores\".",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "fullTitle": "1 - Adicione à página o título \"Paleta de Cores\". Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "timedOut": null,
-              "duration": 340,
+              "duration": 382,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -48,11 +48,11 @@
               "code": "cy.get('h1#title').should('contain.text', 'Paleta de Cores');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "a032ca38-d877-4076-998a-a2eae57feef0",
-              "parentUUID": "82255ba7-0a6f-4e0d-a398-7a46a4432993",
+              "uuid": "57f77b65-48e5-4917-bde1-9c0968a5d2cf",
+              "parentUUID": "5f724703-3d11-403a-b2b8-4636b1bbeae2",
               "isHook": false,
               "skipped": false
             }
@@ -60,17 +60,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "a032ca38-d877-4076-998a-a2eae57feef0"
+            "57f77b65-48e5-4917-bde1-9c0968a5d2cf"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 340,
+          "duration": 382,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "cee41177-d425-40ff-b65d-abf861a60b6c",
+          "uuid": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
           "title": "2 - Adicione à página uma paleta de quatro cores distintas.",
           "fullFile": "",
           "file": "",
@@ -81,7 +81,7 @@
               "title": "A paleta de cores deve ser um elemento com `id` denominado `color-palette`",
               "fullTitle": "2 - Adicione à página uma paleta de quatro cores distintas. A paleta de cores deve ser um elemento com `id` denominado `color-palette`",
               "timedOut": null,
-              "duration": 422,
+              "duration": 300,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -91,11 +91,11 @@
               "code": "cy.get('#color-palette').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "d1462226-2a94-4776-bcfc-e2b237c2319a",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "5ef1fc12-300c-4c78-828f-f0f77983ca2e",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": false
             },
@@ -112,8 +112,8 @@
               "context": null,
               "code": "cy.get('.color').should('have.length', 4).then(function (colors) {\n  for (var i = 0; i < colors.length; i++) {\n    cy.wrap(colors[i]).should('be.visible');\n  }\n});",
               "err": {},
-              "uuid": "6f3fe542-66a0-4eb8-975a-157190eb0cd5",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "e5cf3ae4-4f30-47fc-968f-9c5f682f6290",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": true
             },
@@ -130,8 +130,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).should('have.class', 'color').and('not.have.css', 'background-color', WHITE);\n  cy.wrap(color).should('have.css', 'background-color');\n});",
               "err": {},
-              "uuid": "6a436f07-0cd4-4832-88af-a5ebf462aa0f",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "78f5a3c6-d65e-40e2-80ce-93ef4ff4cd5b",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": true
             },
@@ -148,8 +148,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).and('have.css', 'border', \"1px solid \".concat(BLACK)).and('have.class', 'color');\n});",
               "err": {},
-              "uuid": "1134d822-5e00-4466-ab46-659f8ba5d709",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "38e0b6bd-e742-4d3c-9d78-9524a1e8f2c6",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": true
             },
@@ -166,8 +166,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  for (var index = 1; index < colors.length; index += 1) {\n    var currentColor = colors[index];\n    var previousColor = colors[index - 1];\n    cy.wrap(currentColor).should('be.onTheRightOf', previousColor).and('be.horizontallyAlignedWith', previousColor);\n  }\n});",
               "err": {},
-              "uuid": "72e1dbf4-be70-477b-b4cd-0aa392158f93",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "d125245d-f168-4f8b-a03f-b293a2119138",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": true
             },
@@ -184,8 +184,8 @@
               "context": null,
               "code": "cy.get('h1#title').then(function (title) {\n  cy.get('#color-palette').should('be.belowOf', title);\n});",
               "err": {},
-              "uuid": "d96bb70f-ddfd-4c66-bf97-4508ea33666e",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "7932a9f3-7675-40f1-a0aa-fae7d800975f",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": true
             },
@@ -202,8 +202,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var allColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  cy.log(allColors);\n  var uniqColors = (0, _toConsumableArray2[\"default\"])(new Set(allColors));\n  cy.log(uniqColors);\n  expect(allColors.length).to.eq(uniqColors.length);\n});",
               "err": {},
-              "uuid": "16c8e482-9014-47d8-b6e8-0c1d888c01de",
-              "parentUUID": "cee41177-d425-40ff-b65d-abf861a60b6c",
+              "uuid": "480dc5f6-5f15-42c4-98dc-6b90f71ebc6a",
+              "parentUUID": "e7de7c6e-9adc-42a9-841b-eb8aae059eee",
               "isHook": false,
               "skipped": true
             }
@@ -211,24 +211,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d1462226-2a94-4776-bcfc-e2b237c2319a"
+            "5ef1fc12-300c-4c78-828f-f0f77983ca2e"
           ],
           "pending": [],
           "skipped": [
-            "6f3fe542-66a0-4eb8-975a-157190eb0cd5",
-            "6a436f07-0cd4-4832-88af-a5ebf462aa0f",
-            "1134d822-5e00-4466-ab46-659f8ba5d709",
-            "72e1dbf4-be70-477b-b4cd-0aa392158f93",
-            "d96bb70f-ddfd-4c66-bf97-4508ea33666e",
-            "16c8e482-9014-47d8-b6e8-0c1d888c01de"
+            "e5cf3ae4-4f30-47fc-968f-9c5f682f6290",
+            "78f5a3c6-d65e-40e2-80ce-93ef4ff4cd5b",
+            "38e0b6bd-e742-4d3c-9d78-9524a1e8f2c6",
+            "d125245d-f168-4f8b-a03f-b293a2119138",
+            "7932a9f3-7675-40f1-a0aa-fae7d800975f",
+            "480dc5f6-5f15-42c4-98dc-6b90f71ebc6a"
           ],
-          "duration": 422,
+          "duration": 300,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "11e327d2-691b-43ea-b8ec-7b5be0f4cee2",
+          "uuid": "6b49bd24-b967-464d-92c0-820bfcf0787f",
           "title": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores.",
           "fullFile": "",
           "file": "",
@@ -239,7 +239,7 @@
               "title": "Verifica se a primeira cor da paleta é preta",
               "fullTitle": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores. Verifica se a primeira cor da paleta é preta",
               "timedOut": null,
-              "duration": 332,
+              "duration": 364,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -249,11 +249,11 @@
               "code": "cy.get('.color').first().should('have.css', 'background-color', BLACK);",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "f3d1c0d0-f00f-46af-a360-9b9e984a045c",
-              "parentUUID": "11e327d2-691b-43ea-b8ec-7b5be0f4cee2",
+              "uuid": "ab7df398-2cdd-4482-86b9-68f51b5517fb",
+              "parentUUID": "6b49bd24-b967-464d-92c0-820bfcf0787f",
               "isHook": false,
               "skipped": false
             },
@@ -270,8 +270,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(1).should('have.css', 'background-color');\ncy.get('.color').eq(2).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(2).should('have.css', 'background-color');\ncy.get('.color').eq(3).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(3).should('have.css', 'background-color');",
               "err": {},
-              "uuid": "14f7d538-20ec-44d9-8d74-63fa46b9e656",
-              "parentUUID": "11e327d2-691b-43ea-b8ec-7b5be0f4cee2",
+              "uuid": "4e0328ab-b56f-4fec-9a5c-218b5995db6a",
+              "parentUUID": "6b49bd24-b967-464d-92c0-820bfcf0787f",
               "isHook": false,
               "skipped": true
             }
@@ -279,19 +279,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f3d1c0d0-f00f-46af-a360-9b9e984a045c"
+            "ab7df398-2cdd-4482-86b9-68f51b5517fb"
           ],
           "pending": [],
           "skipped": [
-            "14f7d538-20ec-44d9-8d74-63fa46b9e656"
+            "4e0328ab-b56f-4fec-9a5c-218b5995db6a"
           ],
-          "duration": 332,
+          "duration": 364,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d3964371-68a2-4b88-90db-2f79da895287",
+          "uuid": "efce3cd1-3c09-497f-957e-6bfa1bf1a18e",
           "title": "4 - Adicione à página um quadro de pixels, com 25 pixels.",
           "fullFile": "",
           "file": "",
@@ -302,7 +302,7 @@
               "title": "Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "fullTitle": "4 - Adicione à página um quadro de pixels, com 25 pixels. Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "timedOut": null,
-              "duration": 322,
+              "duration": 304,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -312,11 +312,11 @@
               "code": "cy.get('#pixel-board').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "3240afbc-0c45-4980-8a33-7a80725e4b52",
-              "parentUUID": "d3964371-68a2-4b88-90db-2f79da895287",
+              "uuid": "8da96951-60ea-4b93-99d8-e9192217581e",
+              "parentUUID": "efce3cd1-3c09-497f-957e-6bfa1bf1a18e",
               "isHook": false,
               "skipped": false
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "932304da-b3e6-4bdc-a803-2ff30e501332",
-              "parentUUID": "d3964371-68a2-4b88-90db-2f79da895287",
+              "uuid": "90973b75-55e1-4b95-86a4-ed1ffa6371c9",
+              "parentUUID": "efce3cd1-3c09-497f-957e-6bfa1bf1a18e",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "d79f3cdc-2204-4374-9f8f-1a10b80e0822",
-              "parentUUID": "d3964371-68a2-4b88-90db-2f79da895287",
+              "uuid": "7855412b-2d2e-467a-b3df-57135d275490",
+              "parentUUID": "efce3cd1-3c09-497f-957e-6bfa1bf1a18e",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "0b4d5a03-b371-4d55-8a43-dfe329ae4d00",
-              "parentUUID": "d3964371-68a2-4b88-90db-2f79da895287",
+              "uuid": "01de0793-922a-40fd-964d-6db65b52b225",
+              "parentUUID": "efce3cd1-3c09-497f-957e-6bfa1bf1a18e",
               "isHook": false,
               "skipped": true
             }
@@ -378,21 +378,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "3240afbc-0c45-4980-8a33-7a80725e4b52"
+            "8da96951-60ea-4b93-99d8-e9192217581e"
           ],
           "pending": [],
           "skipped": [
-            "932304da-b3e6-4bdc-a803-2ff30e501332",
-            "d79f3cdc-2204-4374-9f8f-1a10b80e0822",
-            "0b4d5a03-b371-4d55-8a43-dfe329ae4d00"
+            "90973b75-55e1-4b95-86a4-ed1ffa6371c9",
+            "7855412b-2d2e-467a-b3df-57135d275490",
+            "01de0793-922a-40fd-964d-6db65b52b225"
           ],
-          "duration": 322,
+          "duration": 304,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4a6240d8-c7f2-419a-a07c-5a00e2ba4d52",
+          "uuid": "cbc74c84-366f-454e-acd7-10e94a2213b5",
           "title": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.",
           "fullFile": "",
           "file": "",
@@ -403,7 +403,7 @@
               "title": "Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "fullTitle": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel. Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "timedOut": null,
-              "duration": 326,
+              "duration": 258,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -413,11 +413,11 @@
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n}).and(function (pixels) {\n  var rows = chunk(pixels, 5);\n  rows.forEach(function (row) {\n    for (var index = 1; index < row.length; index += 1) {\n      var current = pixels[index];\n      var previous = pixels[index - 1];\n      cy.wrap(current).should('be.onTheRightOf', previous).and('be.horizontallyAlignedWith', previous);\n    }\n  });\n  for (var index = 1; index < 5; index += 1) {\n    expect(pixels[index * 5]).to.be.belowOf(pixels[(index - 1) * 5]);\n  }\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "0d6eabb0-2cfe-4a1c-8684-efd0d8fa367d",
-              "parentUUID": "4a6240d8-c7f2-419a-a07c-5a00e2ba4d52",
+              "uuid": "60d7a221-255f-4aa8-bc0e-ae4441748bc9",
+              "parentUUID": "cbc74c84-366f-454e-acd7-10e94a2213b5",
               "isHook": false,
               "skipped": false
             },
@@ -434,8 +434,8 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'height', '40px').and('have.css', 'width', '40px').and('have.css', 'border', \"1px solid \".concat(BLACK));\n});",
               "err": {},
-              "uuid": "eadfe07c-046a-4c4e-a281-e2d96f633b53",
-              "parentUUID": "4a6240d8-c7f2-419a-a07c-5a00e2ba4d52",
+              "uuid": "a477d62a-4990-4b0e-a72b-bebc4af592b0",
+              "parentUUID": "cbc74c84-366f-454e-acd7-10e94a2213b5",
               "isHook": false,
               "skipped": true
             }
@@ -443,19 +443,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "0d6eabb0-2cfe-4a1c-8684-efd0d8fa367d"
+            "60d7a221-255f-4aa8-bc0e-ae4441748bc9"
           ],
           "pending": [],
           "skipped": [
-            "eadfe07c-046a-4c4e-a281-e2d96f633b53"
+            "a477d62a-4990-4b0e-a72b-bebc4af592b0"
           ],
-          "duration": 326,
+          "duration": 258,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "17520eb5-b7a6-4388-bb43-95289dae7662",
+          "uuid": "beafa86d-e20a-4c42-9476-c3eb8800ab5c",
           "title": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels",
           "fullFile": "",
           "file": "",
@@ -466,7 +466,7 @@
               "title": "Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "fullTitle": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "timedOut": null,
-              "duration": 221,
+              "duration": 290,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -476,11 +476,11 @@
               "code": "cy.get('.selected').first().should('have.css', 'background-color', BLACK);",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "3c7d8c05-9814-46e2-9643-1f70b29c78b8",
-              "parentUUID": "17520eb5-b7a6-4388-bb43-95289dae7662",
+              "uuid": "f4234533-1369-423d-a539-fe17b88f90ee",
+              "parentUUID": "beafa86d-e20a-4c42-9476-c3eb8800ab5c",
               "isHook": false,
               "skipped": false
             },
@@ -497,8 +497,8 @@
               "context": null,
               "code": "cy.get('.color:not(:first-child)').each(function (color) {\n  cy.wrap(color).should('not.have.class', 'selected');\n});",
               "err": {},
-              "uuid": "d20c8ee1-4bb7-4b13-89f6-34fc397f483d",
-              "parentUUID": "17520eb5-b7a6-4388-bb43-95289dae7662",
+              "uuid": "bea3f3f3-0dc5-4464-9040-cafde380de00",
+              "parentUUID": "beafa86d-e20a-4c42-9476-c3eb8800ab5c",
               "isHook": false,
               "skipped": true
             }
@@ -506,19 +506,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "3c7d8c05-9814-46e2-9643-1f70b29c78b8"
+            "f4234533-1369-423d-a539-fe17b88f90ee"
           ],
           "pending": [],
           "skipped": [
-            "d20c8ee1-4bb7-4b13-89f6-34fc397f483d"
+            "bea3f3f3-0dc5-4464-9040-cafde380de00"
           ],
-          "duration": 221,
+          "duration": 290,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f5445d47-4b44-405d-b45b-1f354f5646e6",
+          "uuid": "f7dd8a0c-2700-44f8-b024-658678b3201d",
           "title": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.",
           "fullFile": "",
           "file": "",
@@ -529,7 +529,7 @@
               "title": "Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "fullTitle": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro. Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "timedOut": null,
-              "duration": 371,
+              "duration": 297,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -539,11 +539,11 @@
               "code": "cy.get('.color').each(function (selectedColor, selectedColorIndex) {\n  cy.wrap(selectedColor).click();\n  cy.get('.color').each(function (color, colorIndex) {\n    if (colorIndex === selectedColorIndex) {\n      expect(color).to.have[\"class\"]('selected');\n    } else {\n      expect(color).not.to.have[\"class\"]('selected');\n    }\n  });\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "453fa7ba-920f-46f1-b263-23eddf170d9c",
-              "parentUUID": "f5445d47-4b44-405d-b45b-1f354f5646e6",
+              "uuid": "908d2551-f270-455c-8fb0-f18d75621c07",
+              "parentUUID": "f7dd8a0c-2700-44f8-b024-658678b3201d",
               "isHook": false,
               "skipped": false
             },
@@ -560,8 +560,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('not.have.class', 'selected');\n  });\n});",
               "err": {},
-              "uuid": "3a6af287-287d-48f1-919b-747ffb4fad9a",
-              "parentUUID": "f5445d47-4b44-405d-b45b-1f354f5646e6",
+              "uuid": "92292f58-8c31-442c-a593-9adf0fa030d6",
+              "parentUUID": "f7dd8a0c-2700-44f8-b024-658678b3201d",
               "isHook": false,
               "skipped": true
             }
@@ -569,19 +569,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "453fa7ba-920f-46f1-b263-23eddf170d9c"
+            "908d2551-f270-455c-8fb0-f18d75621c07"
           ],
           "pending": [],
           "skipped": [
-            "3a6af287-287d-48f1-919b-747ffb4fad9a"
+            "92292f58-8c31-442c-a593-9adf0fa030d6"
           ],
-          "duration": 371,
+          "duration": 297,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "3850f566-edbc-44d4-946a-0cba367bb423",
+          "uuid": "8f310293-3e9e-46f3-bc46-4244cf517997",
           "title": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.",
           "fullFile": "",
           "file": "",
@@ -592,7 +592,7 @@
               "title": "Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "fullTitle": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada. Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "timedOut": null,
-              "duration": 361,
+              "duration": 236,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -602,11 +602,11 @@
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).click().should('have.css', 'background-color', BLACK);\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "b52dbbb8-b986-4e40-9417-2559bdaf8b24",
-              "parentUUID": "3850f566-edbc-44d4-946a-0cba367bb423",
+              "uuid": "f0396b53-0761-4a44-b537-3aaa8a29bbb7",
+              "parentUUID": "8f310293-3e9e-46f3-bc46-4244cf517997",
               "isHook": false,
               "skipped": false
             },
@@ -623,8 +623,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});",
               "err": {},
-              "uuid": "8adc5ef5-c791-4b89-a8a2-968573385cd9",
-              "parentUUID": "3850f566-edbc-44d4-946a-0cba367bb423",
+              "uuid": "95d8ddd4-994c-4397-a004-af9ab7b4a145",
+              "parentUUID": "8f310293-3e9e-46f3-bc46-4244cf517997",
               "isHook": false,
               "skipped": true
             },
@@ -641,8 +641,8 @@
               "context": null,
               "code": "var colorToPixelIndexMap = {\n  0: 6,\n  1: 8,\n  2: 16,\n  3: 18\n};\ncy.get('.color').each(function (color, index) {\n  cy.wrap(color).click();\n  var backgroundColor = color.css('background-color');\n  var clickedPixelIndex = colorToPixelIndexMap[index];\n  cy.get('.pixel').eq(clickedPixelIndex).click();\n  cy.get('.pixel').eq(clickedPixelIndex - 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 6).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 6).should('not.have.css', 'background-color', backgroundColor);\n});",
               "err": {},
-              "uuid": "cfa3cb0b-4495-44a9-abb2-bb955d5d61d1",
-              "parentUUID": "3850f566-edbc-44d4-946a-0cba367bb423",
+              "uuid": "74fca657-c3c0-40fa-8da5-94970a27c531",
+              "parentUUID": "8f310293-3e9e-46f3-bc46-4244cf517997",
               "isHook": false,
               "skipped": true
             }
@@ -650,20 +650,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "b52dbbb8-b986-4e40-9417-2559bdaf8b24"
+            "f0396b53-0761-4a44-b537-3aaa8a29bbb7"
           ],
           "pending": [],
           "skipped": [
-            "8adc5ef5-c791-4b89-a8a2-968573385cd9",
-            "cfa3cb0b-4495-44a9-abb2-bb955d5d61d1"
+            "95d8ddd4-994c-4397-a004-af9ab7b4a145",
+            "74fca657-c3c0-40fa-8da5-94970a27c531"
           ],
-          "duration": 361,
+          "duration": 236,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4f22e7c4-b4a3-4043-9e87-bb1f3784b4f7",
+          "uuid": "c0b81030-7b17-44ff-8b43-bb537159e6a6",
           "title": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.",
           "fullFile": "",
           "file": "",
@@ -674,7 +674,7 @@
               "title": "Verifica se o botão tem o `id` denominado `clear-board`",
               "fullTitle": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco. Verifica se o botão tem o `id` denominado `clear-board`",
               "timedOut": null,
-              "duration": 254,
+              "duration": 247,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -684,11 +684,11 @@
               "code": "cy.get('#clear-board').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "6474ceb5-95d5-49d2-b516-941c453657aa",
-              "parentUUID": "4f22e7c4-b4a3-4043-9e87-bb1f3784b4f7",
+              "uuid": "930f7c5f-c775-43ad-bf82-0f3c0e1636ae",
+              "parentUUID": "c0b81030-7b17-44ff-8b43-bb537159e6a6",
               "isHook": false,
               "skipped": false
             },
@@ -705,8 +705,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#clear-board').should('be.belowOf', palette);\n});\ncy.get('#clear-board').then(function (clearBtn) {\n  cy.get('#pixel-board').should('be.belowOf', clearBtn);\n});",
               "err": {},
-              "uuid": "c9e0c24b-92ca-4ba6-a885-99fb43f466cd",
-              "parentUUID": "4f22e7c4-b4a3-4043-9e87-bb1f3784b4f7",
+              "uuid": "1155aebd-6eb9-41ec-ad77-a3ccc8672101",
+              "parentUUID": "c0b81030-7b17-44ff-8b43-bb537159e6a6",
               "isHook": false,
               "skipped": true
             },
@@ -723,8 +723,8 @@
               "context": null,
               "code": "cy.get('#clear-board').should('contain.text', 'Limpar');",
               "err": {},
-              "uuid": "ace61c32-9483-4842-a2e0-623ee8803b64",
-              "parentUUID": "4f22e7c4-b4a3-4043-9e87-bb1f3784b4f7",
+              "uuid": "46c53509-4677-437d-9737-f3db7aa85226",
+              "parentUUID": "c0b81030-7b17-44ff-8b43-bb537159e6a6",
               "isHook": false,
               "skipped": true
             },
@@ -741,8 +741,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).then(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});\ncy.get('#clear-board').click();\ncy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'background-color', WHITE);\n});",
               "err": {},
-              "uuid": "f37c1c60-0265-4052-affc-13040772d5ca",
-              "parentUUID": "4f22e7c4-b4a3-4043-9e87-bb1f3784b4f7",
+              "uuid": "583497de-b890-46d5-b3f5-955fde19d447",
+              "parentUUID": "c0b81030-7b17-44ff-8b43-bb537159e6a6",
               "isHook": false,
               "skipped": true
             }
@@ -750,21 +750,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "6474ceb5-95d5-49d2-b516-941c453657aa"
+            "930f7c5f-c775-43ad-bf82-0f3c0e1636ae"
           ],
           "pending": [],
           "skipped": [
-            "c9e0c24b-92ca-4ba6-a885-99fb43f466cd",
-            "ace61c32-9483-4842-a2e0-623ee8803b64",
-            "f37c1c60-0265-4052-affc-13040772d5ca"
+            "1155aebd-6eb9-41ec-ad77-a3ccc8672101",
+            "46c53509-4677-437d-9737-f3db7aa85226",
+            "583497de-b890-46d5-b3f5-955fde19d447"
           ],
-          "duration": 254,
+          "duration": 247,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+          "uuid": "412f7821-6c99-42d3-af7c-e5b392d18839",
           "title": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.",
           "fullFile": "",
           "file": "",
@@ -775,7 +775,7 @@
               "title": "Verifica se existe um input com o id `board-size`",
               "fullTitle": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário. Verifica se existe um input com o id `board-size`",
               "timedOut": null,
-              "duration": 266,
+              "duration": 301,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -785,11 +785,11 @@
               "code": "cy.get('#board-size').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "990dded5-0111-472f-8e85-5d5e40e10933",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "c838fff4-a2d9-4fb4-a3fd-69a6298fbcad",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": false
             },
@@ -806,8 +806,8 @@
               "context": null,
               "code": "cy.get('#generate-board').should('be.visible');",
               "err": {},
-              "uuid": "3cc6292a-543a-4664-8877-714e0cedff57",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "69de481a-a972-45f9-b9fb-c30e50f59fbc",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -824,8 +824,8 @@
               "context": null,
               "code": "cy.get('#board-size[type=\\'number\\'][min=\\'1\\']');",
               "err": {},
-              "uuid": "ed12f5c6-43e8-4db4-b307-7298deedf964",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "f2967fe0-a2d2-40c6-a352-1d2ac73bc278",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -842,8 +842,8 @@
               "context": null,
               "code": "cy.get('#generate-board').contains(/vqv/i);",
               "err": {},
-              "uuid": "b3b3e375-5cb2-48e7-8a8e-3d828d73792b",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "2ca66242-8f77-4294-95cd-b4eade175f97",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -860,8 +860,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#board-size').should('be.belowOf', palette);\n});\ncy.get('#board-size').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "9f75aa32-dc62-4ad4-a875-e5409fef244b",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "c10c15e3-fbdd-4086-9693-206d54ca1d3c",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -878,8 +878,8 @@
               "context": null,
               "code": "cy.get('#board-size').then(function (board) {\n  cy.get('#generate-board').should('be.onTheRightOf', board);\n});",
               "err": {},
-              "uuid": "62b2ded5-a6f1-4deb-80c2-7ad7941a8f45",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "0847cfc9-9c80-4c57-b344-6d51d7f45142",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -896,8 +896,8 @@
               "context": null,
               "code": "var alerted = false;\ncy.on('window:alert', function (msg) {\n  return alerted = msg;\n});\ncy.get('#generate-board').click().then(function () {\n  return expect(alerted).to.match(/Board inválido!/i);\n});",
               "err": {},
-              "uuid": "68f4ca01-5ff5-4afb-a658-489decd5b632",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "22c28cb9-114d-4595-9a92-6cc524f53f1f",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -914,8 +914,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(10);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 100);",
               "err": {},
-              "uuid": "d7970941-cae9-4334-b7ab-da2c58835a51",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "3617edaa-486d-4dcf-a10b-34397c162497",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             },
@@ -932,8 +932,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(6);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 36).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "832d4c9b-f646-48f2-b7ed-e3e43f432297",
-              "parentUUID": "f63cf91b-7e13-4463-bb2c-84ad276c5dc9",
+              "uuid": "088cb6be-7351-4a19-8f42-73e764597a3a",
+              "parentUUID": "412f7821-6c99-42d3-af7c-e5b392d18839",
               "isHook": false,
               "skipped": true
             }
@@ -941,26 +941,26 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "990dded5-0111-472f-8e85-5d5e40e10933"
+            "c838fff4-a2d9-4fb4-a3fd-69a6298fbcad"
           ],
           "pending": [],
           "skipped": [
-            "3cc6292a-543a-4664-8877-714e0cedff57",
-            "ed12f5c6-43e8-4db4-b307-7298deedf964",
-            "b3b3e375-5cb2-48e7-8a8e-3d828d73792b",
-            "9f75aa32-dc62-4ad4-a875-e5409fef244b",
-            "62b2ded5-a6f1-4deb-80c2-7ad7941a8f45",
-            "68f4ca01-5ff5-4afb-a658-489decd5b632",
-            "d7970941-cae9-4334-b7ab-da2c58835a51",
-            "832d4c9b-f646-48f2-b7ed-e3e43f432297"
+            "69de481a-a972-45f9-b9fb-c30e50f59fbc",
+            "f2967fe0-a2d2-40c6-a352-1d2ac73bc278",
+            "2ca66242-8f77-4294-95cd-b4eade175f97",
+            "c10c15e3-fbdd-4086-9693-206d54ca1d3c",
+            "0847cfc9-9c80-4c57-b344-6d51d7f45142",
+            "22c28cb9-114d-4595-9a92-6cc524f53f1f",
+            "3617edaa-486d-4dcf-a10b-34397c162497",
+            "088cb6be-7351-4a19-8f42-73e764597a3a"
           ],
-          "duration": 266,
+          "duration": 301,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "6cc702a0-97b8-4d55-9a37-3ce9eda52fe7",
+          "uuid": "ecfd9502-d728-48aa-b6cb-437c5e5cc42f",
           "title": "11 - Limite o tamanho mínimo e máximo do board.",
           "fullFile": "",
           "file": "",
@@ -971,7 +971,7 @@
               "title": "Verifica se a altura máxima do board é 50",
               "fullTitle": "11 - Limite o tamanho mínimo e máximo do board. Verifica se a altura máxima do board é 50",
               "timedOut": null,
-              "duration": 288,
+              "duration": 233,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -981,11 +981,11 @@
               "code": "cy.get('#board-size').clear().type(50);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "c093d820-21de-4b1a-86fe-25b4188dfcdf",
-              "parentUUID": "6cc702a0-97b8-4d55-9a37-3ce9eda52fe7",
+              "uuid": "4c1997f7-1f25-453a-9826-b2a97223ef88",
+              "parentUUID": "ecfd9502-d728-48aa-b6cb-437c5e5cc42f",
               "isHook": false,
               "skipped": false
             },
@@ -1002,8 +1002,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(4);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "4ef519b7-852c-424b-988f-c41a5c28edf0",
-              "parentUUID": "6cc702a0-97b8-4d55-9a37-3ce9eda52fe7",
+              "uuid": "9499820e-9aca-44b8-8660-994870875478",
+              "parentUUID": "ecfd9502-d728-48aa-b6cb-437c5e5cc42f",
               "isHook": false,
               "skipped": true
             },
@@ -1020,8 +1020,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(51);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {},
-              "uuid": "8a35cc42-df41-4412-8887-630638c5ed09",
-              "parentUUID": "6cc702a0-97b8-4d55-9a37-3ce9eda52fe7",
+              "uuid": "6d77c178-8981-480f-8ed5-fa98de8223e5",
+              "parentUUID": "ecfd9502-d728-48aa-b6cb-437c5e5cc42f",
               "isHook": false,
               "skipped": true
             }
@@ -1029,20 +1029,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c093d820-21de-4b1a-86fe-25b4188dfcdf"
+            "4c1997f7-1f25-453a-9826-b2a97223ef88"
           ],
           "pending": [],
           "skipped": [
-            "4ef519b7-852c-424b-988f-c41a5c28edf0",
-            "8a35cc42-df41-4412-8887-630638c5ed09"
+            "9499820e-9aca-44b8-8660-994870875478",
+            "6d77c178-8981-480f-8ed5-fa98de8223e5"
           ],
-          "duration": 288,
+          "duration": 233,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "c6e40195-25b9-46c5-8631-87f6079124fe",
+          "uuid": "4c98bd04-ce63-4a38-a408-20f8216c433e",
           "title": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.",
           "fullFile": "",
           "file": "",
@@ -1053,7 +1053,7 @@
               "title": "Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "fullTitle": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página. Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "timedOut": null,
-              "duration": 253,
+              "duration": 319,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1063,11 +1063,11 @@
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
-                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at http://localhost:46363/script.js:3:16",
+                "estack": "Uncaught TypeError: Cannot read property 'classList' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at http://localhost:42221/script.js:3:16",
                 "diff": null
               },
-              "uuid": "090b6aaa-d260-4d0e-9620-7c02358ebceb",
-              "parentUUID": "c6e40195-25b9-46c5-8631-87f6079124fe",
+              "uuid": "6a597871-ec4e-4526-b92a-c9b036443314",
+              "parentUUID": "4c98bd04-ce63-4a38-a408-20f8216c433e",
               "isHook": false,
               "skipped": false
             },
@@ -1084,8 +1084,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  expect(previousColors[0]).to.eq(BLACK);\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors[0]).to.eq(BLACK);\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {},
-              "uuid": "52f05e65-74a2-4cd1-a850-8e1cac14df44",
-              "parentUUID": "c6e40195-25b9-46c5-8631-87f6079124fe",
+              "uuid": "7b23fb70-bb18-4427-ad9f-dbfd6309236f",
+              "parentUUID": "4c98bd04-ce63-4a38-a408-20f8216c433e",
               "isHook": false,
               "skipped": true
             }
@@ -1093,13 +1093,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "090b6aaa-d260-4d0e-9620-7c02358ebceb"
+            "6a597871-ec4e-4526-b92a-c9b036443314"
           ],
           "pending": [],
           "skipped": [
-            "52f05e65-74a2-4cd1-a850-8e1cac14df44"
+            "7b23fb70-bb18-4427-ad9f-dbfd6309236f"
           ],
-          "duration": 253,
+          "duration": 319,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
