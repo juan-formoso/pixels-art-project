@@ -12,12 +12,6 @@ td {
   background-color: white;
 }
 
-tr {
-  height: 40px;
-  width: 40px;
-  border: 1px solid black;
-}
-
 #pixel-board {
   height: 233px;
   width: 233px;
@@ -52,4 +46,3 @@ tr {
 .greenery {
   background-color: #88b04b;
 }
-
