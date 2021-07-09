@@ -33,6 +33,7 @@ td {
 }
 
 #pixel-board {
-  height: 280px;
-  width: 280px;
+  height: 233px;
+  width: 233px;
+  background-color: black;
 }
