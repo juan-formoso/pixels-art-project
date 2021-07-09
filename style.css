@@ -2,24 +2,24 @@ table {
     display: inline-block;
     width: 85px;
     height: 85px;
-  }
+}
 
 #color-palette {
     border: 1px solid black;
 }
 
 .classicBlue {
-    background-color: #34568B;
+    background-color: #34568b;
 }
-  
+
 .livingCoral {
-    background-color: #FF6F61;
+    background-color: #ff6f61;
 }
-  
-.ultraViolet {
-    background-color: #6B5B95;
+
+.black {
+    background-color: black;
 }
-  
+
 .greenery {
-    background-color: #88B04B;
+    background-color: #88b04b;
 }
