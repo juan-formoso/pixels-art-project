@@ -1,17 +1,16 @@
 function boardPosition() {
-    const boardHigh = 5;
-    const boardLarge = 5;
-    const position = document.getElementById('pixel-board');
-  
-    for (let i = 0; i < boardHigh; i++) {
-      const column = board.insertRow(0);
-      for (let x = 0; x < boardLarge; x++) {
-        let cell = column.insertCell(0);
-        cell.classList.add('pixel');
-        cell.style.backgroundColor = 'white';
-      }
+  const boardHigh = 5;
+  const boardLarge = 5;
+  const position = document.getElementById('pixel-board'); 
+  for (let i = 0; i < boardHigh; i += 1) {
+    const column = position.insertRow(0);
+    for (let x = 0; x < boardLarge; x += 1) {
+      const cell = column.insertCell(0);
+      cell.classList.add('pixel');
+      cell.style.backgroundColor = 'white';
     }
   }
+}
 boardPosition();
 
 const black = document.querySelector('.black');
