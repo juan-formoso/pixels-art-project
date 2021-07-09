@@ -1,25 +1,29 @@
 table {
-    display: inline-block;
-    width: 85px;
-    height: 85px;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
 }
 
 .color {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .classicBlue {
-    background-color: #34568b;
+  background-color: #34568b;
 }
 
 .livingCoral {
-    background-color: #ff6f61;
+  background-color: #ff6f61;
 }
 
 .black {
-    background-color: black;
+  background-color: black;
 }
 
 .greenery {
-    background-color: #88b04b;
+  background-color: #88b04b;
+}
+
+td {
+  display: table-cell;
 }
