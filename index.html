@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta https-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Formoso's Pixel Art</title>
-    <link rel="stylesheet" href="style.css">
-  </div>
-  </head>
-<body>
-  <div id="main-content">
-    <h1 id="title">Paleta de Cores</h1>
-      <table id="color-palette" class="color"></table>
-      <table id="color-palette" class="color"></table>
-      <table id="color-palette" class="color"></table>
-      <table id="color-palette" class="color"></table>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formoso's Pixel Art</title>
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="background-image">
+  <div id="main-content" class="center">
+    <header class="center">
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <div class="center">
+      <table id="color-palette" class="color black"></table>
+      <table id="color-palette" class="color classicBlue"></table>
+      <table id="color-palette" class="color livingCoral"></table>
+      <table id="color-palette" class="color greenery"></table>
     </div>
-    <div>
+    <br>
+    <div class="center">
+      <button id="clear-board">Limpar</button>
+    </div>
+    <br>
+    <div class="center">
       <table id="pixel-board">
         <tr>
           <td class="pixel"></td>
@@ -56,5 +66,6 @@
       </table>
     </div>
     <script src="script.js"></script>
+  </div>
 </body>
 </html>
