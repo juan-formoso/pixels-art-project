@@ -1,12 +1,28 @@
+function boardPosition() {
+    const boardHigh = 5;
+    const boardLarge = 5;
+    const position = document.getElementById('pixel-board');
+  
+    for (let i = 0; i < boardHigh; i++) {
+      const column = board.insertRow(0);
+      for (let x = 0; x < boardLarge; x++) {
+        let cell = column.insertCell(0);
+        cell.classList.add('pixel');
+        cell.style.backgroundColor = 'white';
+      }
+    }
+  }
+boardPosition();
+
 const black = document.querySelector('.black');
 
 window.addEventListener('load', function() {
   black.classList.add('selected');
 })
 
-let colors = document.querySelectorAll('.color');
-let divColors = document.body.children[0].children[1];
-let selectColor = document.querySelector('.selected');
+const colors = document.querySelectorAll('.color');
+const divColors = document.body.children[0].children[1];
+const selectColor = document.querySelector('.selected');
 
 function selectedPallet(event) {
   for (let index = 0; index < colors.length; index += 1) {
