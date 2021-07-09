@@ -13,7 +13,6 @@ td {
 }
 
 #pixel-board {
-  display: table;
   height: 233px;
   width: 233px;
   background-color: black;
