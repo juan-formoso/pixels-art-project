@@ -45,5 +45,4 @@ function clearGrid () {
     cell[index].style.backgroundColor = 'white';
   }
 }
-
 clear.addEventListener('click', clearGrid);

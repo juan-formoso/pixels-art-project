@@ -1,3 +1,13 @@
+body {
+  font-family: 'Martel', serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
 table {
   display: inline-block;
   width: 40px;
@@ -15,9 +25,11 @@ td {
 button {
   padding: 15px;
   background-color: rgb(247, 241, 247);
-  border-radius: 50%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 #color-palette {
@@ -33,6 +45,7 @@ button {
 #main-content {
   padding: 50px;
   border: 1px solid black;
+  border-radius: 50px;
   width: 250px;
   margin-left: 40%;
   margin-top: 5%;
@@ -61,4 +74,9 @@ button {
 .background-image {
   background-image: url(https://wallpapercave.com/wp/wp1933950.png);
   background-size: 1700px;
+}
+
+.text {
+  font-family: 'Martel', serif;
+  font-weight: 400;
 }
