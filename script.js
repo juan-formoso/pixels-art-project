@@ -1,11 +1,11 @@
-let defaultColor = document.querySelector('.black');
+const defaultColor = document.querySelector('.black');
 window.addEventListener('load', function() {
   defaultColor.classList.add('selected');
 })
 
-let colors = document.querySelectorAll('.color');
-let boxColors = document.body.children[0].children[1];
-let selectColor = document.querySelector('.selected');
+const colors = document.querySelectorAll('.color');
+const boxColors = document.body.children[0].children[1];
+const selectColor = document.querySelector('.selected');
 
 function selectedPalette(event) {
   for (let index = 0; index < colors.length; index += 1) {
@@ -20,7 +20,7 @@ function selectedPalette(event) {
 
 boxColors.addEventListener('click', selectedPalette);
 
-let table = document.querySelector('#pixel-board');
+const table = document.querySelector('#pixel-board');
 function copySelectedColor(event) {
   if (colors[0].classList.length === 3) {
     event.target.style.backgroundColor = 'black';
@@ -38,8 +38,8 @@ function copySelectedColor(event) {
 
 table.addEventListener('click', copySelectedColor);
 
-let clear = document.querySelector('#clear-board');
-let cell = document.querySelectorAll('td');
+const clear = document.querySelector('#clear-board');
+const cell = document.querySelectorAll('td');
 function clearGrid () {
   for (let index = 0; index < cell.length; index += 1) {
     cell[index].style.backgroundColor = 'white';
